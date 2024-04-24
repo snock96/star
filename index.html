@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    for (let i = 1; i <= 10; i++) { //행의 루프수//
+      let stars = '';
+    for (let j = 1; j <= 2*i-1; j++) { //*출력값이 몇개가 될지//
+      stars += '*';
+  }
+  console.log(' '.repeat(10-i) + stars); //리피트 앞에는 여백 출력, 뒤에는 별출력
+}
+  </script>
+</body>
+</html>
